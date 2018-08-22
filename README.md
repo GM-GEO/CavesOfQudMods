@@ -1,5 +1,6 @@
-# CavesOfQudMods
+# Caves Of Qud Mods
 A sample of mods that can be used with Caves of Qud
+
 ## Important Information for Modding
 The **modding directory** is located in ```C:\Users\{User}\AppData\LocalLow\Freehold Games\CavesOfQud```
 
@@ -7,7 +8,7 @@ The **game asset directory** is located in ```..\Caves Of Qud_Windows_142.1\Wind
 
 The **compiled DLL directory** is located in ``` ..\Caves Of Qud_Windows_142.1\Windows\CoQ_Data\Managed```
 
-## Third Eye
+### Third Eye
 The Third Eye mod is the first mod I've created for Caves of Qud. It does a standard implementation of an increased stat via a mutation.
 
 1. Create ThirdEye folder in the modding directory
