@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mutations>
+  <category Name="Mental" DisplayName="&amp;GMental Mutations" Stat="Ego">
+    <mutation Name="Third Eye" Cost="1" MaxSelected="1" Class="GEO_ThirdEye" Exclusions="" Code="ea"></mutation>
+ </category>
+</mutations>
