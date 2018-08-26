@@ -1,0 +1,55 @@
+  <conversation ID="GEO_JoppaWardenGunnarVargmunr">
+    <node ID="Start" IfNotHaveQuest="The Iced Man">
+      <text>
+        I need your help. I require blaze injectors to keep moving.
+      </text>
+      <choice GotoID="Find Blaze Injectors">Tell me about these injectors.</choice>
+      <choice GotoID="End">Goodbye.</choice>
+    </node>
+    <node ID="Start" IfHaveQuest="The Iced Man" IfNotFinishedQuest="The Iced Man">
+      <text>
+      Hello again, do you have my injectors?
+      </text>
+      <choice GotoID="GiveKnicknack" TakeItem="[takeall],[destroy],BlazeTonic 3" CompleteQuestStep="The Iced Man~Return To Warden Gunnar Vargmunr">Here are your blaze injectors</choice>
+      <choice GotoID="End">No, I will return with your injectors.</choice>
+    </node>
+    <node ID="Start" IfFinishedQuest="The Iced Man" IfNotHaveQuest="The Warriors Path">
+      <text>
+      Thank you for your help. I see great things in you, but you need to prove yourself. Kill 10 Snapjaw Warlords.
+      </text>
+      <choice GotoID="End" StartQuest="The Warriors Path">If I must.</choice>
+    </node>
+    <node ID="Find Blaze Injectors">
+      <text>
+      They keep my joints from freezing up.
+      </text>
+      <choice GotoID="Where are Blaze Injectors">Where can I find them?</choice>
+      <choice GotoID="End">No, I'm not interested.</choice>
+    </node>
+    <node ID="Where are Blaze Injectors">
+      <text>
+      I'm not sure, but I believe in you.
+      </text>
+      <choice GotoID="End" StartQuest="The Iced Man">I will return with your injectors.</choice>
+      <choice GotoID="End">No, I'm not interested.</choice>
+    </node>
+    <node ID="Start" IfHaveQuest="The Warriors Path" IfNotFinishedQuest="The Warriors Path">
+      <text>
+      I still see that you're growing, but you will be a warrior soon.
+      </text>
+      <choice GotoID="End">Goodbye.</choice>
+    </node>
+    <node ID="Start" IfNotHaveQuest="A Worthy Foe">
+      <text>
+      I see it, your power has grown.
+      </text>
+      <choice GotoID="Start Duel">Alright.</choice>
+      <choice GotoID="End">No. I'm not interested.</choice>
+    </node>
+    <node ID="Start Duel">
+      <text>
+      We shall duel. I will not kill you.
+      </text>
+      <choice GotoID="End" StartQuest="A Worthy Foe">Wait, what?</choice>
+    </node>
+  </conversation>

@@ -1,0 +1,11 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<Map
+  Width="80"
+  Height="25" Load="Merge">
+  <cell
+    X="41"
+    Y="6">
+    <object Name="Warden Gunnar Vargmunr"></object>
+  </cell>
+</Map>

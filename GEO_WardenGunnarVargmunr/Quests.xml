@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<quests>
+<quest Name="The Iced Man" Level="3" Manager="GEO_TheIcedMan" Accomplishment="You helped a man who was freezing over.">
+
+  <step Name="Find Three Blaze Injectors" XP="0">
+    <text>Search Qud for Blaze Injectors.</text>
+  </step>
+
+  <step Name="Return To Warden Gunnar Vargmunr" XP="175">
+    <text>Return to Warden Gunnar Vargmunr with the injectors.</text>
+  </step>
+
+</quest>
+
+<quest Name="The Warriors Path" Level="5" Manager="GEO_TheWarriorsPath" Accomplishment="You proved your martial prowess.">
+
+  <step Name="Kill 10 Snapjaw Warlords" XP="0">
+    <text>Search Qud for Snapjaw Wardlords and kill them.</text>
+  </step>
+
+  <step Name="Return To Warden Gunnar Vargmunr" XP="600">
+    <text>Return to Warden Gunnar Vargmunr.</text>
+  </step>
+
+</quest>
+
+<quest Name="A Worthy Foe" Level="7" Manager="GEO_AWorthyFoe" Accomplishment="With your help, Argyve detected a strange signal.">
+  <step Name="Beat Warden Gunnar Vargmunr in a duel" XP="0">
+    <text>Defeat the warden in single combat.</text>
+  </step>
+
+  <step Name="Speak to Warden Gunnar Vargmunr" XP="500">
+    <text>Speak with Warden Gunnar Vargmunr about the duel.</text>
+  </step>
+</quest>
+</quests>
