@@ -9,7 +9,7 @@ public class GEO_TheIcedMan : QuestManager
 {
 	public override void OnQuestAdded()
 	{
-		base.Name = "QMGEO_";
+		base.Name = "QMGEO_TheIcedMan";
 		CountBlazeInjectors();
 		XRLCore.Core.Game.Player.Body.AddPart(this);
 		XRLCore.Core.Game.Player.Body.RegisterPartEvent(this, "Took");
