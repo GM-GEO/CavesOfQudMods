@@ -1,17 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?>  
-<conversation ID="GEO_JoppaWardenGunnarVargmunr">
+<?xml version="1.0" encoding="utf-8"?>
+  <conversation ID="GEO Warden Gunnar Vargmunr">
+    <node ID="Start">
+    <text>
+      Hello, fiend.
+    </text>
+    <choice GotoID="End">Goodbye.</choice>
+    </node>
     <node ID="Start" IfNotHaveQuest="The Iced Man">
       <text>
         I need your help. I require blaze injectors to keep moving.
       </text>
-      <choice GotoID="Find Blaze Injectors">Tell me about these injectors.</choice>
+      <choice GotoID="FindBlazeInjectors">Tell me about these injectors.</choice>
       <choice GotoID="End">Goodbye.</choice>
     </node>
     <node ID="Start" IfHaveQuest="The Iced Man" IfNotFinishedQuest="The Iced Man">
       <text>
       Hello again, do you have my injectors?
       </text>
-      <choice GotoID="GiveKnicknack" TakeItem="[takeall],[destroy],BlazeTonic 3" CompleteQuestStep="The Iced Man~Return To Warden Gunnar Vargmunr">Here are your blaze injectors</choice>
+      <choice TakeItem="[takeall],[destroy],BlazeTonic 3" CompleteQuestStep="The Iced Man~Return To Warden Gunnar Vargmunr">Here are your blaze injectors</choice>
       <choice GotoID="End">No, I will return with your injectors.</choice>
     </node>
     <node ID="Start" IfFinishedQuest="The Iced Man" IfNotHaveQuest="The Warriors Path">
@@ -20,14 +26,14 @@
       </text>
       <choice GotoID="End" StartQuest="The Warriors Path">If I must.</choice>
     </node>
-    <node ID="Find Blaze Injectors">
+    <node ID="FindBlazeInjectors">
       <text>
       They keep my joints from freezing up.
       </text>
-      <choice GotoID="Where are Blaze Injectors">Where can I find them?</choice>
+      <choice GotoID="WhereareBlazeInjectors">Where can I find them?</choice>
       <choice GotoID="End">No, I'm not interested.</choice>
     </node>
-    <node ID="Where are Blaze Injectors">
+    <node ID="WhereareBlazeInjectors">
       <text>
       I'm not sure, but I believe in you.
       </text>
@@ -44,10 +50,10 @@
       <text>
       I see it, your power has grown.
       </text>
-      <choice GotoID="Start Duel">Alright.</choice>
+      <choice GotoID="StartDuel">Alright.</choice>
       <choice GotoID="End">No. I'm not interested.</choice>
     </node>
-    <node ID="Start Duel">
+    <node ID="StartDuel">
       <text>
       We shall duel. I will not kill you.
       </text>
