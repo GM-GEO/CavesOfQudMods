@@ -1,4 +1,5 @@
-  <conversation ID="GEO_JoppaWardenGunnarVargmunr">
+<?xml version="1.0" encoding="utf-8"?>  
+<conversation ID="GEO_JoppaWardenGunnarVargmunr">
     <node ID="Start" IfNotHaveQuest="The Iced Man">
       <text>
         I need your help. I require blaze injectors to keep moving.
