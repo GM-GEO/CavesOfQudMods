@@ -4,7 +4,7 @@
   Height="25" Load="Merge">
   <cell
     X="41"
-    Y="6">
+    Y="7">
     <object Name="GEO Warden Gunnar Vargmunr"></object>
   </cell>
 </Map>

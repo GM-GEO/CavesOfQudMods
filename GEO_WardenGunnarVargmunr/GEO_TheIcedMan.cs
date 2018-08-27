@@ -34,9 +34,9 @@ namespace XRL.World.QuestManagers
 
 			XRLCore.Core.Game.Player.Body.GetPart<Inventory>().ForeachObject(delegate(GameObject GO)
 			{
-				if (GO.HasPart("BlazeTonic"))
+				if (GO.HasPart("Blaze_Tonic_Applicator"))
 				{
-					blazeInjectorCount++;
+					blazeInjectorCount = GO.Count;
 				}
 			});
 			if (blazeInjectorCount >= 3)

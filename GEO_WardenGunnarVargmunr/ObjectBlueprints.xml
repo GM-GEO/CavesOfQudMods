@@ -18,7 +18,7 @@
     <inventoryobject Blueprint="Waterskin" Number="3" NoEquip="true"></inventoryobject>
     <inventoryobject Blueprint="Glowsphere" Number="1"></inventoryobject>
     <inventoryobject Blueprint="Leather Boots" Number="1"></inventoryobject>
-     <inventoryobject Blueprint="Spider Prismgun" Number="1"></inventoryobject>
+    <inventoryobject Blueprint="Spider Prismgun" Number="1"></inventoryobject>
     <skill Name="Axe"></skill>
     <skill Name="Axe_Dismember"></skill>
     <skill Name="Cudgel"></skill>
