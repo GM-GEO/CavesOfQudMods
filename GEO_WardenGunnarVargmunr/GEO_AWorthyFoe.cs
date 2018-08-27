@@ -4,23 +4,26 @@ using XRL.Core;
 using XRL.World;
 using XRL.World.Parts;
 
-[Serializable]
-public class GEO_AWorthyFoe : QuestManager
+namespace XRL.World.QuestManagers
 {
-	
-
-	public override void OnQuestAdded()
+	[Serializable]
+	public class GEO_AWorthyFoe : QuestManager
 	{
 
-	}
 
-	public override void OnQuestComplete()
-	{
-		
-	}
+		public override void OnQuestAdded()
+		{
 
-	public override bool FireEvent(Event E)
-	{
-		return true;
+		}
+
+		public override void OnQuestComplete()
+		{
+
+		}
+
+		public override bool FireEvent(Event E)
+		{
+			return true;
+		}
 	}
 }
