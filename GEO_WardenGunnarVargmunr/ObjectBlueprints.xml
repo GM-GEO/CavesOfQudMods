@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <objects>
-  <object Name="Warden Gunnar Vargmunr" Inherits="NPC">
+  <object Name="GEO Warden Gunnar Vargmunr" Inherits="NPC">
     <part Name="Render" DisplayName="Warden Gunnar Vargmunr" Tile="creatures/caste_flipped_22.bmp" ColorString="&amp;B" TileColor="&amp;w" DetailColor="B" RenderString="w"></part>
     <part Name="Description" Short="A frozen warden."></part>
-    <part Name="ConversationScript" ConversationID="GEO_JoppaWardenGunnarVargmunr"></part>
+    <part Name="ConversationScript" PreQuestConversationID="GEO Warden Gunnar Vargmunr" Quest="The Iced Man" ConversationID="GEO Warden Gunnar Vargmunr"></part>
     <part Name="Brain" Wanders="false" Factions="Wardens-100"></part>
     <stat Name="Strength" Value="30"></stat>
     <stat Name="Agility" Value="25"></stat>
